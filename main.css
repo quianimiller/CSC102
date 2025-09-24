@@ -1,0 +1,45 @@
+/* 
+declaration block:
+
+selector{
+    property: value;
+    property2: value;
+
+}
+*/
+body{
+    background-color: blue;
+    color: orange;
+}
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;    
+}
+a{
+    color:antiquewhite;
+
+}
+a:hover{
+    color: hotpink;;
+}
+a:active{
+    color: black;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200;
+}
+
+#AngelnStitch{
+    margin-right: 200;
+    width: 400px;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
