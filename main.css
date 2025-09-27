@@ -9,7 +9,8 @@ selector{
 */
 body{
     background-color: blue;
-    color: orange;
+    color: whitesmoke;
+    text-align: center;
 }
 nav{
     height: 600px;
@@ -34,12 +35,9 @@ footer{
     margin-right: 200;
 }
 
-#AngelnStitch{
-    margin-right: 200;
-    width: 400px;
-    align-items: center;
-}
 
 h1{
     text-align: center;
+    text-decoration: underline;
 }
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Sciccors Game</title> <!--Name of the Page-->
+    <script src="code.js"></script> <!--link to the javascript file-->
+    <link rel="stylesheet" href="main.css" rel="stylesheet" > <!--link to the style sheet-->
+</head>
+<body>
+    <header>
+        <h1 id="heading">Rock Paper Scissors</h1> <!--Heading for the page-->
+    </header>
+    <p>Would you like to play a game?</p> <!--A question inside of a paragraph-->
+    <br>
+    <br>
+    <button onclick="answerQuestion(true);">Yes</button> <!--button to answer above question -->
+    <button onclick="answerQuestion(false);">No</button> <!--button to answer above question -->
+    <br>
+    <br>
+    <p id="answer"></p> <!--blank paragraph for the return to question-->
+
+    <br>
+    <br>
+    <div id="game"> <!--section for game play-->
+        <p>Choose your move: </p>
+            <!--buttons to play the game-->
+            <button onclick="play('rock')">✊ Rock ✊</button>
+            <button onclick="play('paper')">✋ Paper ✋</button>
+            <button onclick="play('scissors')">✌️ Scissors ✌️</button>
+  
+        <br>
+        <br>
+    
+    
+    <p id="player"></p> <!--displays the player choice-->
+    <p id="computer"></p><!--displays computer choice-->
+    <p id="outcome"></p> <!--displays the outcome-->
+
+</div>
+<div>
+    <form onsubmit="displayMessage(document.getElementById('playerName').value); return false;">
+        <!-- on submit puts value in the form to dispaly the name -->
+        <label for="name">Please enter your name:</label> <!--label for form-->
+        <input type="text" id="playerName" name="name"> <!--gives the form a text type, an id and a name-->
+        <input type="submit" value="SUBMIT"> <!--label for the button-->
+    </form>
+    <div id="userMessage"></div><!--empty div container to display the user message output of the form-->
+
+</div>
+
+
+    
+</body>
+</html>
